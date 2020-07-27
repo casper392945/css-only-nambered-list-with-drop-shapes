@@ -1,2 +1,2 @@
-# css-only-nambered-list-with-drop-shapes
+# Css Only Numbered List with Drop Shapes
 GitHub Pages
