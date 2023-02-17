@@ -1,0 +1,139 @@
+{
+  "settings": {
+    "name": "CSS-only numbered lists with drop shapes",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "mobirise5",
+      "title": "Mobirise 5",
+      "styling": {
+        "primaryColor": "#6592e6",
+        "secondaryColor": "#ff6666",
+        "successColor": "#40b0bf",
+        "infoColor": "#47b5ed",
+        "warningColor": "#FFE161",
+        "dangerColor": "#ff9966",
+        "mainFont": "Jost",
+        "display1Font": "Jost",
+        "display1Size": 4.6,
+        "display2Font": "Jost",
+        "display2Size": 3,
+        "display5Font": "Jost",
+        "display5Size": 2.2,
+        "display7Font": "Jost",
+        "display7Size": 1.2,
+        "display4Font": "Jost",
+        "display4Size": 1.1,
+        "isRoundedButtons": false,
+        "isAnimatedOnScroll": false,
+        "isScrollToTopButton": false
+      },
+      "additionalSetColors": [
+        "#1a1e24"
+      ]
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "5.0.17",
+    "siteFonts": [
+      {
+        "css": "'Jost', sans-serif",
+        "name": "Jost",
+        "url": "https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i"
+      }
+    ],
+    "favicon": false,
+    "imageResize": false,
+    "cssOptimize": false,
+    "lazyLoad": false,
+    "lazyType": "nothing",
+    "robotsSwitcher": false,
+    "sitemapSwitcher": false,
+    "sitemapSwitcherAuto": false,
+    "siteUrl": false,
+    "cookiesAlert": false,
+    "gdpr": false,
+    "witsec-white-label": false,
+    "witsec-language": false,
+    "witsec-mailform": false,
+    "pwa-switcher": false,
+    "htmltag": "<html>",
+    "uniqCompNum": 7,
+    "versionPublish": "5.0.17"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "CSS-only numbered lists with drop shapes",
+        "meta_descr": "CSS-only numbered lists with drop shapes",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            ".item": {
+              "display": "block",
+              "clear": "both",
+              "counter-increment": "list",
+              "padding-bottom": "4rem",
+              "font-size": "1.1rem",
+              "line-height": "1.375",
+              "position": "relative"
+            },
+            ".item:before": {
+              "font": "bold (2.25rem / 1) sans-serif",
+              "content": "counter(list)",
+              "width": "5rem",
+              "height": "5rem",
+              "float": "left",
+              "margin": "0 1.5rem 0.75rem 0",
+              "color": "@bg",
+              "background": "@highlight1 linear-gradient(to bottom right, @highlight1 25%, @highlight2)",
+              "text-shadow": "0 0 2px @highlight1",
+              "border-top-left-radius": "0%",
+              "border-top-right-radius": "50%",
+              "border-bottom-right-radius": "50%",
+              "border-bottom-left-radius": "50%",
+              "display": "inline-flex",
+              "-webkit-box-align": "center",
+              "align-items": "center",
+              "-webkit-box-pack": "center",
+              "justify-content": "center",
+              "shape-outside": "ellipse()",
+              "z-index": "1"
+            },
+            ".item:after": {
+              "width": "2.5rem",
+              "height": "2.5rem",
+              "position": "absolute",
+              "top": "0",
+              "left": "0",
+              "content": "\"\"",
+              "background": "@highlight1",
+              "z-index": "-1",
+              "border-top-left-radius": "3px"
+            },
+            "DIV": {
+              "color": "#000000"
+            }
+          },
+          "_name": "content5",
+          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"8\" step=\"1\">\n        \n        \n        <header>Style</header>\n        <input type=\"color\" name=\"bg\" title=\"Number Color\" value=\"#ffffff\">\n        <input type=\"color\" name=\"highlight1\" title=\"Gradient1\" value=\"#e43f3f\">\n        <input type=\"color\" name=\"highlight2\" title=\"Gradient2\" value=\"#ffedbc\">\n        \n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n    <div class=\"row justify-content-center\">\n        <div class=\"col-12 col-md-{{textWidth}}\" data-multiline mbr-article>\n<ul>\n    <li class=\"item\">\n        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, distinctio ad corporis, laboriosam unde provident, architecto tenetur ea odio debitis delectus explicabo eum obcaecati vitae facere iusto laborum consequuntur neque.</li>\n    <li class=\"item\"><span style=\"font-size: 1.1rem;\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, distinctio ad corporis, laboriosam unde provident, architecto tenetur ea odio debitis delectus explicabo eum obcaecati vitae facere iusto laborum consequuntur neque.\n</span></li><li class=\"item\"><span style=\"font-size: 1.1rem;\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, distinctio ad corporis, laboriosam unde provident, architecto tenetur ea odio debitis delectus explicabo eum obcaecati vitae facere iusto laborum consequuntur neque.</span><br></li>\n    <li class=\"item\">\n        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, distinctio ad corporis, laboriosam unde provident, architecto tenetur ea odio debitis delectus explicabo eum obcaecati vitae facere iusto laborum consequuntur neque.</li>\n        <li class=\"item\">\n                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, distinctio ad corporis, laboriosam unde provident, architecto tenetur ea odio debitis delectus explicabo eum obcaecati vitae facere iusto laborum consequuntur neque.\n Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, distinctio ad corporis, laboriosam unde provident, architecto tenetur ea odio debitis delectus explicabo eum obcaecati vitae facere iusto laborum consequuntur neque.\n    </li>\n</ul>\n</div>    \n</div>  \n</div>\n</section>",
+          "_cid": "s5UUojP6As",
+          "_anchor": "content5-0",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    }
+  }
+}
